@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<!-- <link rel="stylesheet" href="plugin/highlight/monokai.css"> -->
+
+		<!-- style overrides -->
+		<style>
+
+
+.navigate-left {
+    top: auto !important;
+    bottom: 10% !important;
+    left: 3% !important;
+	}
+
+	.navigate-right {
+		top: 10% !important;
+    right: 0.8em !important;
+	}
+
+	.navigate-up {
+		top: 7.777% !important;
+    	left: 4.444% !important;
+	}
+
+	.navigate-down {
+		bottom: 3% !important;
+    right: 1% !important;
+    left: auto !important;
+	}
+
+	.reveal .slide-number {
+    position: absolute;
+    display: block;
+    left: 8px;
+	right: auto;
+	}
+
+
+		</style>
+
+
+
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>Slide 2x</section>
+				<section style="top: 0px; display: block;" class="stack future" data-previous-indexv="0" hidden="" aria-hidden="true"><section style="top: 77.5px; display: block;" class="" aria-hidden="true"><h2>Vertical Slides</h2><p>Slides can be nested inside of each other.</p><p>Use the <em>Space</em> key to navigate through all slides.</p><br><a href="#" class="navigate-down" disabled="disabled"><img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="238" alt="Down arrow" src="https://static.slid.es/reveal/arrow.png" data-lazy-loaded=""></a></section><section class="future" style="top: 248.5px; display: block;" hidden="" aria-hidden="true"><h2>Basement Level 1</h2><p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p></section><section class="future" style="top: 111px; display: none;" hidden="" aria-hidden="true"><h2>Basement Level 2</h2><p>That's it, time to go back up.</p><br><a href="#/2"><img class="r-frame" style="background: rgba(255,255,255,0.1); transform: rotate(180deg);" width="178" height="238" alt="Up arrow" src="https://static.slid.es/reveal/arrow.png" data-lazy-loaded=""></a></section></section>
+				
+				<section>Slide 2x</section>
+				<section>Slide 2x</section>
+				<section>Slide 2x</section>
+				<section>Slide 2x</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<!-- <script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script> -->
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				// plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
